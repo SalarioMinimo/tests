@@ -1,5 +1,3 @@
-import sympy
+import streamlit as st
 
-from sympy.utilities.misc import find_executable
-uwu=find_executable('latex')
-uwu
+st.latex(E=UwU)
