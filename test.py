@@ -1,6 +1,4 @@
 import streamlit as st
+import sympy
 
-def uwu():
-  st.title("nos mataran a todos")
-input=st.text_area(label="Text in latex",on_change=uwu)
-st.latex(input)
+print(solve(2+2))
