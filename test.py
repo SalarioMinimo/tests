@@ -2,7 +2,7 @@ import streamlit as st
 import sympy
 
 x = sympy.symbols("x")
-exp = "(6 / 2) + 8 - x"
+exp = "Sin(6 / 2) + 8 - x"
 st.latex(exp)
 
 
