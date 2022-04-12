@@ -3,4 +3,4 @@ import sympy
 
 
 
-st.title(sympy.solve("6^2=x"))
+st.title(sympy.solve("6^2"))
