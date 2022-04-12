@@ -1,4 +1,4 @@
 import streamlit as st
 import sympy
 
-print(solve(2+2))
+st.title(sympy.solve(2+2))
