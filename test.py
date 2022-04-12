@@ -4,4 +4,4 @@ import sympy
 x = sympy.symbols("x")
 
 
-st.title(sympy.solve("6^2=x",x))
+st.title(sympy.solve("6**-2=x",x))
