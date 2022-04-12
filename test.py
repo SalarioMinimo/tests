@@ -2,7 +2,7 @@ import streamlit as st
 import sympy
 
 x = sympy.symbols("x")
-exp = 2 {5} - x
+exp = 2 * 5- - x
 st.latex(exp)
 
 
