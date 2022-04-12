@@ -1,3 +1,4 @@
 import streamlit as st
 
-st.latex("E=mc^2")
+input=st.text_area(label="Text in latex")
+st.latex(input)
