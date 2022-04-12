@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.latex(E=UwU)
+st.latex(\ E=mc^2 \)
