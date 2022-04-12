@@ -1,7 +1,7 @@
 import streamlit as st
 import sympy
 
-x = sympy.symbol("x")
+x = sympy.symbols("x")
 
 
 st.title(sympy.solve("6^2",x))
