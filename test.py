@@ -1,4 +1,4 @@
 import streamlit as st
 import sympy
 
-st.title(sympy.solve("2+2=x","x"))
+st.title(sympy.solve(6^2))
