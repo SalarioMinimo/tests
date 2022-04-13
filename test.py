@@ -1,9 +1,9 @@
 import streamlit as st
-import math
+import math as *
 import sympy
 
 x = sympy.symbols("x")
-exp = math.sin(6 / 2) + 8 - x
+exp = sin(6 / 2) + 8 - x
 st.latex(exp)
 
 
