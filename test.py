@@ -1,10 +1,9 @@
 import streamlit as st
-from math import *
-import sympy
+from sympy import *
 
-x = sympy.symbols("x")
+x = symbols("x")
 exp = sin(6 / 2) + 8 - x
 st.latex(exp)
 
 
-st.title(sympy.solve(exp,x))
+st.title(solve(exp,x))
