@@ -1,5 +1,5 @@
 import streamlit as st
-import math as *
+from math import *
 import sympy
 
 x = sympy.symbols("x")
