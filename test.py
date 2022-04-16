@@ -1,5 +1,6 @@
 import streamlit as st
 from sympy import *
+import nltk
 from nltk import word_tokenize
 
 nltk.download('punkt')
