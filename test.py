@@ -2,6 +2,7 @@ import streamlit as st
 from sympy import *
 from nltk import word_tokenize
 
+nltk.download('punkt')
 esta = word_tokenize({"vamos a matar unos perros."})
 
 esta
