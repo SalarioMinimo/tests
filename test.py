@@ -3,7 +3,7 @@ from sympy import *
 import nltk
 
 nltk.download('punkt')
-esta = nltk.word_tokenize("65_ por")
+esta = nltk.word_tokenize("65, por")
 
 esta
 x = symbols("x")
