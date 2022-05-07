@@ -8,7 +8,7 @@ class side_bar:
   def __init__(self):
     with st.sidebar:
       st.title("Documentación")
-      st.subheader("Todo lo que necesitas saber")
+      st.subheader("Bienvenido a mi calculadora, aquí está toda la información que debes de saber para usarla.")
       
       
       col1, col2, col3 = st.columns([1,1,1])
