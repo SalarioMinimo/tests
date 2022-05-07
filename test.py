@@ -14,10 +14,14 @@ class side_bar:
       col1, col2, col3 = st.columns(3)
 
       with col1:
-        st.button("¿Por qué una calculadora de texto?")
+        st.button(label = "¿Por qué una calculadora de texto?", on_click = self.comandos)
       with col2:
         st.button("¿Qué puedo llegar a hacer?")
       with col3:
         st.button("¿Cómo puedo usarla?")
+        
+  def comandos(self):
+    with st.sidebar:
+      st.button("Funcionará¿")
       
 Documentacion = side_bar()
