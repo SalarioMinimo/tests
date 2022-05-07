@@ -11,7 +11,7 @@ class side_bar:
       st.subheader("Todo lo que necesitas saber")
       
       
-      l1, col2, col3 = st.columns([1,1,1])
+      coll1, col2, col3 = st.columns([1,1,1])
 
       with col1:
         st.button('1')
