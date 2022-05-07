@@ -12,7 +12,7 @@ class side_bar:
       st.subheader("Bienvenido a mi calculadora, aquí está toda la información que debes de saber para usarla.")
       
       genre = st.radio("Selecciona un apartado",("Justificación", "Comandos", "Ejemplos"))
-      selection[genre]
+      selection[genre]()
 
   def Justificación(self):
     st.sidebar.text("Quizás funciona")
