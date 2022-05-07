@@ -6,4 +6,4 @@ class side_bar:
     with st.sidebar:
       st.title("Documentación")
       
-Documentación = side_bar
+Documentacion = side_bar()
