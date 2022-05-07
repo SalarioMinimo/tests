@@ -7,7 +7,7 @@ class side_bar:
   
   def __init__(self):
     with st.sidebar:
-      st.title("Documentación")
+      st.title("Manual de uso")
       st.subheader("Bienvenido a mi calculadora, aquí está toda la información que debes de saber para usarla.")
       
       
