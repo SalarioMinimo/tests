@@ -11,7 +11,7 @@ class side_bar:
       st.subheader("Bienvenido a mi calculadora, aquí está toda la información que debes de saber para usarla.")
       
       
-      col1, col2, col3 = st.columns([1,1,1])
+      col1, col2, col3 = st.columns(3)
 
       with col1:
         st.button("¿Por qué una calculadora de texto?")
