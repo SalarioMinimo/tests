@@ -21,7 +21,6 @@ class side_bar:
         st.button("¿Cómo puedo usarla?")
         
   def comandos(self):
-    with st.sidebar:
-      st.button("Funcionará¿")
+      st.sidebar.st.button("Funcionará¿")
       
 Documentacion = side_bar()
